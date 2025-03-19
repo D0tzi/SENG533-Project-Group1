@@ -1,0 +1,378 @@
+Workload D:
+
+Size 100
+OpCount 1000
+
+Loading workload...
+Starting test.
+2025-03-16 12:35:44:351 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:35:45:470 1 sec: 100 operations; 86.66 current ops/sec; [CLEANUP: Count=1, Max=1521, Min=1521, Avg=1521, 90=1521, 99=1521, 99.9=1521, 99.99=1521] [INSERT: Count=100, Max=57247, Min=340, Avg=1111.29, 90=758, 99=1085, 99.9=57247, 99.99=57247]
+[OVERALL], RunTime(ms), 1154
+[OVERALL], Throughput(ops/sec), 86.65511265164645
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.34662045060658575
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.34662045060658575
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1521.0
+[CLEANUP], MinLatency(us), 1521
+[CLEANUP], MaxLatency(us), 1521
+[CLEANUP], 95thPercentileLatency(us), 1521
+[CLEANUP], 99thPercentileLatency(us), 1521
+[INSERT], Operations, 100
+[INSERT], AverageLatency(us), 1111.29
+[INSERT], MinLatency(us), 340
+[INSERT], MaxLatency(us), 57247
+[INSERT], 95thPercentileLatency(us), 932
+[INSERT], 99thPercentileLatency(us), 1085
+[INSERT], Return=OK, 100
+
+Loading workload...
+Starting test.
+2025-03-16 12:37:28:597 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:37:30:122 1 sec: 1000 operations; 640.61 current ops/sec; [READ: Count=954, Max=43391, Min=173, Avg=382.71, 90=494, 99=844, 99.9=1150, 99.99=43391] [CLEANUP: Count=1, Max=1485, Min=1485, Avg=1485, 90=1485, 99=1485, 99.9=1485, 99.99=1485] [INSERT: Count=46, Max=6587, Min=254, Avg=535.93, 90=526, 99=6587, 99.9=6587, 99.99=6587]
+[OVERALL], RunTime(ms), 1562
+[OVERALL], Throughput(ops/sec), 640.2048655569782
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.2560819462227913
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.2560819462227913
+[READ], Operations, 954
+[READ], AverageLatency(us), 382.7054507337526
+[READ], MinLatency(us), 173
+[READ], MaxLatency(us), 43391
+[READ], 95thPercentileLatency(us), 594
+[READ], 99thPercentileLatency(us), 844
+[READ], Return=OK, 954
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1485.0
+[CLEANUP], MinLatency(us), 1485
+[CLEANUP], MaxLatency(us), 1485
+[CLEANUP], 95thPercentileLatency(us), 1485
+[CLEANUP], 99thPercentileLatency(us), 1485
+[INSERT], Operations, 46
+[INSERT], AverageLatency(us), 535.9347826086956
+[INSERT], MinLatency(us), 254
+[INSERT], MaxLatency(us), 6587
+[INSERT], 95thPercentileLatency(us), 600
+[INSERT], 99thPercentileLatency(us), 6587
+[INSERT], Return=OK, 46
+
+Size: 1000
+OpCount: 1000
+
+Loading workload...
+Starting test.
+2025-03-16 12:40:47:116 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:40:49:251 2 sec: 1000 operations; 457.46 current ops/sec; [CLEANUP: Count=1, Max=2387, Min=2386, Avg=2387, 90=2387, 99=2387, 99.9=2387, 99.99=2387] [INSERT: Count=1000, Max=60191, Min=305, Avg=742.36, 90=1119, 99=2101, 99.9=2455, 99.99=60191]
+[OVERALL], RunTime(ms), 2186
+[OVERALL], Throughput(ops/sec), 457.45654162854527
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.18298261665141813
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.18298261665141813
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 2387.0
+[CLEANUP], MinLatency(us), 2386
+[CLEANUP], MaxLatency(us), 2387
+[CLEANUP], 95thPercentileLatency(us), 2387
+[CLEANUP], 99thPercentileLatency(us), 2387
+[INSERT], Operations, 1000
+[INSERT], AverageLatency(us), 742.36
+[INSERT], MinLatency(us), 305
+[INSERT], MaxLatency(us), 60191
+[INSERT], 95thPercentileLatency(us), 1434
+[INSERT], 99thPercentileLatency(us), 2101
+[INSERT], Return=OK, 1000
+
+Loading workload...
+Starting test.
+2025-03-16 12:41:22:871 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:41:24:272 1 sec: 1000 operations; 697.35 current ops/sec; [READ: Count=953, Max=44287, Min=180, Avg=388.7, 90=534, 99=879, 99.9=1312, 99.99=44287] [CLEANUP: Count=1, Max=1484, Min=1484, Avg=1484, 90=1484, 99=1484, 99.9=1484, 99.99=1484] [INSERT: Count=47, Max=7295, Min=248, Avg=584.6, 90=585, 99=7295, 99.9=7295, 99.99=7295]
+[OVERALL], RunTime(ms), 1435
+[OVERALL], Throughput(ops/sec), 696.8641114982578
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 3
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.20905923344947736
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 3
+[TOTAL_GC_TIME_%], Time(%), 0.20905923344947736
+[READ], Operations, 953
+[READ], AverageLatency(us), 388.6967471143757
+[READ], MinLatency(us), 180
+[READ], MaxLatency(us), 44287
+[READ], 95thPercentileLatency(us), 647
+[READ], 99thPercentileLatency(us), 879
+[READ], Return=OK, 953
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1484.0
+[CLEANUP], MinLatency(us), 1484
+[CLEANUP], MaxLatency(us), 1484
+[CLEANUP], 95thPercentileLatency(us), 1484
+[CLEANUP], 99thPercentileLatency(us), 1484
+[INSERT], Operations, 47
+[INSERT], AverageLatency(us), 584.5957446808511
+[INSERT], MinLatency(us), 248
+[INSERT], MaxLatency(us), 7295
+[INSERT], 95thPercentileLatency(us), 713
+[INSERT], 99thPercentileLatency(us), 7295
+[INSERT], Return=OK, 47
+
+Size: 10000
+OpCount: 1000
+
+Loading workload...
+Starting test.
+2025-03-16 12:45:07:156 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:45:10:270 3 sec: 10000 operations; 3173.6 current ops/sec; [CLEANUP: Count=1, Max=1511, Min=1511, Avg=1511, 90=1511, 99=1511, 99.9=1511, 99.99=1511] [INSERT: Count=10000, Max=49663, Min=113, Avg=203.76, 90=300, 99=611, 99.9=1119, 99.99=4081]
+[OVERALL], RunTime(ms), 3151
+[OVERALL], Throughput(ops/sec), 3173.59568390987
+[TOTAL_GCS_G1_Young_Generation], Count, 3
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 9
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.2856236115518883
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 3
+[TOTAL_GC_TIME], Time(ms), 9
+[TOTAL_GC_TIME_%], Time(%), 0.2856236115518883
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1511.0
+[CLEANUP], MinLatency(us), 1511
+[CLEANUP], MaxLatency(us), 1511
+[CLEANUP], 95thPercentileLatency(us), 1511
+[CLEANUP], 99thPercentileLatency(us), 1511
+[INSERT], Operations, 10000
+[INSERT], AverageLatency(us), 203.7561
+[INSERT], MinLatency(us), 113
+[INSERT], MaxLatency(us), 49663
+[INSERT], 95thPercentileLatency(us), 366
+[INSERT], 99thPercentileLatency(us), 611
+[INSERT], Return=OK, 10000
+
+Loading workload...
+Starting test.
+2025-03-16 12:45:32:623 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:45:34:047 1 sec: 1000 operations; 686.81 current ops/sec; [READ: Count=954, Max=39167, Min=171, Avg=384.27, 90=563, 99=1002, 99.9=1902, 99.99=39167] [CLEANUP: Count=1, Max=1403, Min=1403, Avg=1403, 90=1403, 99=1403, 99.9=1403, 99.99=1403] [INSERT: Count=46, Max=6367, Min=251, Avg=532.41, 90=605, 99=6367, 99.9=6367, 99.99=6367]
+[OVERALL], RunTime(ms), 1458
+[OVERALL], Throughput(ops/sec), 685.8710562414266
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 3
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.205761316872428
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 3
+[TOTAL_GC_TIME_%], Time(%), 0.205761316872428
+[READ], Operations, 954
+[READ], AverageLatency(us), 384.2672955974843
+[READ], MinLatency(us), 171
+[READ], MaxLatency(us), 39167
+[READ], 95thPercentileLatency(us), 695
+[READ], 99thPercentileLatency(us), 1002
+[READ], Return=OK, 954
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1403.0
+[CLEANUP], MinLatency(us), 1403
+[CLEANUP], MaxLatency(us), 1403
+[CLEANUP], 95thPercentileLatency(us), 1403
+[CLEANUP], 99thPercentileLatency(us), 1403
+[INSERT], Operations, 46
+[INSERT], AverageLatency(us), 532.4130434782609
+[INSERT], MinLatency(us), 251
+[INSERT], MaxLatency(us), 6367
+[INSERT], 95thPercentileLatency(us), 723
+[INSERT], 99thPercentileLatency(us), 6367
+[INSERT], Return=OK, 46
+
+
+Size: 100000
+OpCount: 1000
+Loading workload...
+Starting test.
+2025-03-16 12:47:00:946 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:47:10:920 10 sec: 41663 operations; 4160.89 current ops/sec; est completion in 15 seconds [INSERT: Count=41670, Max=62431, Min=114, Avg=205.06, 90=283, 99=489, 99.9=902, 99.99=1785]
+2025-03-16 12:47:20:916 20 sec: 97442 operations; 5580.13 current ops/sec; est completion in 1 second [INSERT: Count=55774, Max=25263, Min=112, Avg=176.7, 90=224, 99=354, 99.9=480, 99.99=825]
+2025-03-16 12:47:21:386 20 sec: 100000 operations; 5442.55 current ops/sec; [CLEANUP: Count=1, Max=1503, Min=1503, Avg=1503, 90=1503, 99=1503, 99.9=1503, 99.99=1503] [INSERT: Count=2556, Max=498, Min=130, Avg=181.04, 90=227, 99=370, 99.9=449, 99.99=498]
+[OVERALL], RunTime(ms), 20479
+[OVERALL], Throughput(ops/sec), 4883.050930221202
+[TOTAL_GCS_G1_Young_Generation], Count, 9
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 33
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.16114068069729967
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 9
+[TOTAL_GC_TIME], Time(ms), 33
+[TOTAL_GC_TIME_%], Time(%), 0.16114068069729967
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1503.0
+[CLEANUP], MinLatency(us), 1503
+[CLEANUP], MaxLatency(us), 1503
+[CLEANUP], 95thPercentileLatency(us), 1503
+[CLEANUP], 99thPercentileLatency(us), 1503
+[INSERT], Operations, 100000
+[INSERT], AverageLatency(us), 188.62572
+[INSERT], MinLatency(us), 112
+[INSERT], MaxLatency(us), 62431
+[INSERT], 95thPercentileLatency(us), 290
+[INSERT], 99thPercentileLatency(us), 424
+[INSERT], Return=OK, 100000
+
+Loading workload...
+Starting test.
+2025-03-16 12:47:54:824 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:47:56:520 1 sec: 1000 operations; 572.74 current ops/sec; [READ: Count=943, Max=50015, Min=257, Avg=549.42, 90=835, 99=1689, 99.9=2373, 99.99=50015] [CLEANUP: Count=1, Max=1706, Min=1706, Avg=1706, 90=1706, 99=1706, 99.9=1706, 99.99=1706] [INSERT: Count=57, Max=9279, Min=318, Avg=759.77, 90=947, 99=1432, 99.9=9279, 99.99=9279]
+[OVERALL], RunTime(ms), 1746
+[OVERALL], Throughput(ops/sec), 572.737686139748
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.22909507445589922
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.22909507445589922
+[READ], Operations, 943
+[READ], AverageLatency(us), 549.4220572640509
+[READ], MinLatency(us), 257
+[READ], MaxLatency(us), 50015
+[READ], 95thPercentileLatency(us), 1134
+[READ], 99thPercentileLatency(us), 1689
+[READ], Return=OK, 943
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1706.0
+[CLEANUP], MinLatency(us), 1706
+[CLEANUP], MaxLatency(us), 1706
+[CLEANUP], 95thPercentileLatency(us), 1706
+[CLEANUP], 99thPercentileLatency(us), 1706
+[INSERT], Operations, 57
+[INSERT], AverageLatency(us), 759.7719298245614
+[INSERT], MinLatency(us), 318
+[INSERT], MaxLatency(us), 9279
+[INSERT], 95thPercentileLatency(us), 1129
+[INSERT], 99thPercentileLatency(us), 1432
+[INSERT], Return=OK, 57
+
+
+Size: 1000000
+OpCount: 1000
+
+Loading workload...
+Starting test.
+2025-03-16 12:48:43:032 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:48:53:000 10 sec: 58388 operations; 5837.63 current ops/sec; est completion in 2 minutes [INSERT: Count=58397, Max=48191, Min=103, Avg=149.95, 90=195, 99=327, 99.9=760, 99.99=2867]
+2025-03-16 12:49:03:008 20 sec: 124651 operations; 6621 current ops/sec; est completion in 2 minutes [INSERT: Count=66257, Max=8895, Min=104, Avg=149.12, 90=194, 99=312, 99.9=818, 99.99=1400]
+2025-03-16 12:49:13:009 30 sec: 183324 operations; 5866.71 current ops/sec; est completion in 2 minutes [INSERT: Count=58672, Max=4843, Min=115, Avg=168.67, 90=213, 99=326, 99.9=733, 99.99=1200]
+2025-03-16 12:49:23:007 40 sec: 251145 operations; 6783.46 current ops/sec; est completion in 2 minutes [INSERT: Count=67820, Max=12119, Min=103, Avg=145.74, 90=187, 99=269, 99.9=452, 99.99=889]
+2025-03-16 12:49:33:005 50 sec: 322163 operations; 7103.22 current ops/sec; est completion in 1 minute [INSERT: Count=71018, Max=48863, Min=104, Avg=139.17, 90=169, 99=236, 99.9=397, 99.99=1066]
+2025-03-16 12:49:43:009 60 sec: 394410 operations; 7221.81 current ops/sec; est completion in 1 minute [INSERT: Count=72248, Max=15183, Min=103, Avg=136.85, 90=166, 99=228, 99.9=315, 99.99=815]
+2025-03-16 12:49:53:006 70 sec: 469097 operations; 7470.94 current ops/sec; est completion in 1 minute [INSERT: Count=74686, Max=7079, Min=104, Avg=132.3, 90=154, 99=221, 99.9=291, 99.99=665]
+2025-03-16 12:50:03:001 80 sec: 541656 operations; 7259.53 current ops/sec; est completion in 1 minute [INSERT: Count=72559, Max=8239, Min=103, Avg=136.19, 90=165, 99=226, 99.9=298, 99.99=876]
+2025-03-16 12:50:13:001 90 sec: 615634 operations; 7397.8 current ops/sec; est completion in 57 seconds [INSERT: Count=73978, Max=7719, Min=103, Avg=133.63, 90=158, 99=227, 99.9=289, 99.99=615]
+2025-03-16 12:50:23:013 100 sec: 689208 operations; 7348.58 current ops/sec; est completion in 46 seconds [INSERT: Count=73575, Max=7443, Min=105, Avg=134.5, 90=163, 99=227, 99.9=290, 99.99=841]
+2025-03-16 12:50:33:011 110 sec: 762129 operations; 7293.56 current ops/sec; est completion in 35 seconds [INSERT: Count=72921, Max=1286, Min=104, Avg=135.54, 90=165, 99=234, 99.9=308, 99.99=758]
+2025-03-16 12:50:43:010 120 sec: 831894 operations; 6977.2 current ops/sec; est completion in 25 seconds [INSERT: Count=69765, Max=10687, Min=105, Avg=141.7, 90=173, 99=243, 99.9=388, 99.99=823]
+2025-03-16 12:50:53:006 130 sec: 904659 operations; 7279.41 current ops/sec; est completion in 14 seconds [INSERT: Count=72764, Max=8155, Min=105, Avg=135.81, 90=164, 99=227, 99.9=309, 99.99=838]
+2025-03-16 12:51:03:003 140 sec: 973610 operations; 6897.17 current ops/sec; est completion in 4 second [INSERT: Count=68952, Max=7391, Min=104, Avg=143.32, 90=180, 99=271, 99.9=586, 99.99=1154]
+2025-03-16 12:51:07:253 144 sec: 1000000 operations; 6209.41 current ops/sec; [CLEANUP: Count=1, Max=1621, Min=1621, Avg=1621, 90=1621, 99=1621, 99.9=1621, 99.99=1621] [INSERT: Count=26388, Max=1004, Min=114, Avg=159.18, 90=199, 99=350, 99.9=754, 99.99=955]
+[OVERALL], RunTime(ms), 144255
+[OVERALL], Throughput(ops/sec), 6932.168728986863
+[TOTAL_GCS_G1_Young_Generation], Count, 83
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 87
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.060309867942185715
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 83
+[TOTAL_GC_TIME], Time(ms), 87
+[TOTAL_GC_TIME_%], Time(%), 0.060309867942185715
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1621.0
+[CLEANUP], MinLatency(us), 1621
+[CLEANUP], MaxLatency(us), 1621
+[CLEANUP], 95thPercentileLatency(us), 1621
+[CLEANUP], 99thPercentileLatency(us), 1621
+[INSERT], Operations, 1000000
+[INSERT], AverageLatency(us), 141.468729
+[INSERT], MinLatency(us), 103
+[INSERT], MaxLatency(us), 48863
+[INSERT], 95thPercentileLatency(us), 200
+[INSERT], 99thPercentileLatency(us), 255
+[INSERT], Return=OK, 1000000
+
+Loading workload...
+Starting test.
+2025-03-16 12:52:25:523 0 sec: 0 operations; est completion in 0 second
+mongo client connection created with mongodb://localhost:27017/ycsb
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2025-03-16 12:52:26:945 1 sec: 1000 operations; 687.76 current ops/sec; [READ: Count=941, Max=40799, Min=172, Avg=397.43, 90=526, 99=855, 99.9=1287, 99.99=40799] [CLEANUP: Count=1, Max=1596, Min=1596, Avg=1596, 90=1596, 99=1596, 99.9=1596, 99.99=1596] [INSERT: Count=59, Max=6031, Min=250, Avg=507.37, 90=548, 99=1295, 99.9=6031, 99.99=6031]
+[OVERALL], RunTime(ms), 1455
+[OVERALL], Throughput(ops/sec), 687.2852233676975
+[TOTAL_GCS_G1_Young_Generation], Count, 1
+[TOTAL_GC_TIME_G1_Young_Generation], Time(ms), 4
+[TOTAL_GC_TIME_%_G1_Young_Generation], Time(%), 0.27491408934707906
+[TOTAL_GCS_G1_Old_Generation], Count, 0
+[TOTAL_GC_TIME_G1_Old_Generation], Time(ms), 0
+[TOTAL_GC_TIME_%_G1_Old_Generation], Time(%), 0.0
+[TOTAL_GCs], Count, 1
+[TOTAL_GC_TIME], Time(ms), 4
+[TOTAL_GC_TIME_%], Time(%), 0.27491408934707906
+[READ], Operations, 941
+[READ], AverageLatency(us), 397.43039319872474
+[READ], MinLatency(us), 172
+[READ], MaxLatency(us), 40799
+[READ], 95thPercentileLatency(us), 627
+[READ], 99thPercentileLatency(us), 855
+[READ], Return=OK, 941
+[CLEANUP], Operations, 1
+[CLEANUP], AverageLatency(us), 1596.0
+[CLEANUP], MinLatency(us), 1596
+[CLEANUP], MaxLatency(us), 1596
+[CLEANUP], 95thPercentileLatency(us), 1596
+[CLEANUP], 99thPercentileLatency(us), 1596
+[INSERT], Operations, 59
+[INSERT], AverageLatency(us), 507.3728813559322
+[INSERT], MinLatency(us), 250
+[INSERT], MaxLatency(us), 6031
+[INSERT], 95thPercentileLatency(us), 568
+[INSERT], 99thPercentileLatency(us), 1295
+[INSERT], Return=OK, 59
