@@ -50,6 +50,6 @@ def parse_ycsb_log(log_file_path):
 log_file_path = "data_e.txt"
 df = parse_ycsb_log(log_file_path)
 
-df.to_csv('ycsb_performance_results_workload_e.csv', index=False)
+df.to_csv('results_workload_e.csv', index=False)
 
 print(df)
